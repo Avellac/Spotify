@@ -4,8 +4,7 @@
   "main": "index.js",
   "scripts": {
     "build": "npm install --prefix back-end && npm install --prefix front-end --production=false && npm run build --prefix front-end",
-    "start": "npm run start --prefix back-end",
-    "render-postbuild": "npm install --prefix frontend --production=false && cd /opt/render/project/src/frontend && npm run build"
+    "start": "npm run start --prefix back-end"
   },
   "repository": {
     "type": "git",
